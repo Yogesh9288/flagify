@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World-Wise</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="title">
+                <h2>Flagify</h2>
+                <img src="earth-globe (1).png" alt="">
+            </div>
+            <div class="search">
+                <input id="input" type="text" placeholder="Enter your country" spellcheck="false">
+                <i id="btn" class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </div>
+            <div class="loader"></div>
+            <div class="error">
+                <p>Invalid Country name!!</p>
+            </div>
+            <div class="info" style="display: none;">
+                <div class="flag">
+                    <img src="" alt="">
+                </div>
+                <div class="details">
+                    <div>
+                        <strong>Country:</strong><p style="display: inline;" id="name"></p>
+                    </div>
+                    <div>
+                        <strong>Capital:</strong><p style="display: inline;" id="capital"></p>
+                    </div>
+                    <div>
+                        <strong>Population:</strong><p style="display: inline;" id="population"></p>
+                    </div>
+                    <div>
+                        <strong>Currency:</strong><p style="display: inline;" id="currency"></p>
+                    </div>
+                    <div>
+                        <strong>Country Code:</strong><p style="display: inline;" id="country_code"></p>
+                    </div>
+                    <a target="_blank">Click Here to know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
